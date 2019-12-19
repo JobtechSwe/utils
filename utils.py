@@ -1,6 +1,5 @@
 import re
 
-
 def mask_sensitive_info(ads: str) -> str:
     email_regex = '\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})'
     personal_no_regex = '\d{6,8}[-|(\s)]{0,1}[T|\d]\d{3}'
